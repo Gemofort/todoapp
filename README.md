@@ -59,7 +59,7 @@ where the callbacks are.
 
 Let's look at the example:
 
-###/routes/index.js
+### /routes/index.js
 
 ```js
 const express = require('express');
@@ -85,7 +85,7 @@ module.exports = router;
 
 And it's controllers for example
 
-###/controllers/done.js
+### /controllers/done.js
 
 ```js
 const Task = require('../models/Task');
