@@ -54,6 +54,7 @@ app.use('/search', require('./routes/search.js'));
 
 const PORT = process.env.PORT || 2000;
 
+app.listen(PORT, console.log(`Server started on ${PORT}`));
 ```
 
 ### Routing system
