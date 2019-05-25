@@ -1,6 +1,6 @@
 const Task = require('../models/Task');
 
-const delDone = async (req, res) => {
+const delDone = (req, res) => {
 
   Task.deleteMany({ done: true })
     .then(result => {

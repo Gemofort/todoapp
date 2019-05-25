@@ -2,6 +2,12 @@
 
 Hey, I am Vanya Feofanov and that's mine simple vision of todo app on node.js, using Express and MongoDB
 
+To start a server just type 
+
+## npm run dev
+
+in your terminal.
+
 ## App file
 
 ```js
