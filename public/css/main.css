@@ -1,0 +1,203 @@
+body {
+	background: #d3d3d3;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+/* Logo */
+.mainLogo{
+  position: fixed;
+  height: 54px;
+  width: 350px;
+  top:10%;
+  left: 50%;
+  margin-top: -27px;
+  margin-left: -175px;
+  text-align: center;
+  font-family: 'Arvo', serif;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+}
+
+.logo:link{
+  text-decoration: none;
+}
+
+.logo:visited {
+  color: black;
+}
+
+.logo:hover {
+  color: black;
+}
+
+/* Search form */
+.search{
+  position: fixed;
+  height: 59px;
+  width: 300px;
+  top:20%;
+  left: 50%;
+  margin-top: -27px;
+  margin-left: -150px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+.search>input{
+  width: 100%;
+  border: 2px solid #555;
+  background-color: transparent;
+  text-align: center; 
+  transition: 1s;
+  outline: none;
+}
+
+.search>input:focus{
+  width: 100%;
+  border: 2px solid #555;
+  background-color: white;
+}
+
+.search>button{
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid transparent;
+  outline: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.search>button:hover{
+  background-color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+/* Add tasks form and list*/
+.addTasks{
+  position: fixed;
+  height: 200px;
+  width: 300px;
+  top:40%;
+  left: 35%;
+  margin-top: -100px;
+  margin-left: -150px;
+  text-align: center;
+}
+
+.addTasks>h1{
+  font-family: 'Arvo', serif;
+}
+
+.addForm>input{
+  width: 100%;
+  border: 2px solid #555;
+  background-color: transparent;
+  text-align: center; 
+  transition: 0.5s;
+  outline: none;
+}
+
+.addForm>input:focus{
+  width: 100%;
+  border: 2px solid #555;
+  background-color: white;
+}
+
+.addForm>button{
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid transparent;
+  outline: none;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.addForm>button:hover{
+  background-color: white;
+  border: 2px solid white;
+  outline: none;
+}
+
+.todoList{
+  width: 100%;
+  list-style-type: none;
+  text-align: left;
+}
+
+.doneButton{
+  background-color: transparent;
+  border: none;
+  transition: 0.5s;
+}
+
+.doneButton:focus{
+  outline: none;
+}
+
+.doneButton:hover{
+  color: green;
+}
+
+.delButton{
+  background-color: transparent;
+  border: none;
+  transition: 0.5s;
+}
+
+.delButton:focus{
+  outline: none;
+}
+
+.delButton:hover{
+  color: red;
+}
+
+/* Done tasks list*/
+.doneTasks{
+  position: fixed;
+  height: 200px;
+  width: 300px;
+  top:40%;
+  left: 65%;
+  margin-top: -100px;
+  margin-left: -150px;
+  text-align: center;
+}
+
+.doneTasks>h2{
+  font-family: 'Arvo', serif;
+}
+
+.doneList{
+  width: 100%;
+  list-style-type: none;
+  text-align: left;
+}
+
+.undoButton{
+  background-color: transparent;
+  border: none;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.undoButton:focus{
+  outline: none;
+}
+
+.clearAll{
+  background-color: transparent;
+  border: none;
+  transition: 0.5s;
+}
+
+.clearAll:focus{
+  outline: none;
+}
