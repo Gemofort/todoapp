@@ -139,6 +139,30 @@ mongoose.connect(db, { useNewUrlParser: true })
   });
 ```
 
+### EJS
+
+I also use ejs, simple templating language that lets you generate HTML markup with plain JavaScript.
+
+There is example of code in 'views' folder
+
+```html
+<ul class="todoList">
+  <% for(var i=0; i < notDone.length; i++) { %>
+  <li class="m-2">
+    <span style="font-family: 'Questrial', sans-serif; font-size: 20px;"><%= notDone[i].name %></span>
+    <form action="/<%= notDone[i]._id %>/completed" method="POST" style="display: inline;">
+      <button type="submit" class="doneButton"><i class="fas fa-check fa-lg"></i></button>
+    </form>
+    <form action="/<%= notDone[i]._id %>/deleted" method="POST" style="display: inline;">
+      <button type="submit" class="delButton"><i class="fas fa-times fa-lg"></i></button>
+    </form>
+  </li>
+  <% } %>
+</ul>
+```
+This peace creates a list of tasks to do, which we get from notDone array.
+
+
 ## My social links
 
 * [Facebook](https://www.facebook.com/profile.php?id=100005922974355) 
